@@ -1,0 +1,130 @@
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#ffeb3b;
+    padding: 20px 10%;
+    color: white;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    height: 615px;
+    width: 275px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    border-radius: 8px;
+    margin-bottom: 15px;
+    max-width: 300px;
+    }
+
+
+.product p {
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+}
+
+.product span {
+    display: block;
+    font-size: 20px;
+    color: #929292;
+    margin: 5px 0;
+}
+
+.screen-reader-text1 {
+    font-size: 20px;
+    color: #ff8c42;
+}
+
+.product .btn {
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffeb3b;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffeb3b;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.but {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: beige;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+
+.banner {
+    background: url('/ProjetoTCC/img/bannerbr2.webp') no-repeat center center;
+    background-size: cover; 
+    display: block;
+    height: 410px; 
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
