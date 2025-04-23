@@ -11,7 +11,7 @@
         <div class="logo">Origens</div>
         <nav>
             <ul>
-                <a href="index.html" class=but>INÍCIO</a>
+                <a href="index.html" class="but">INÍCIO</a>
                 <a href="dog.html" class="but">PREMIER</a>
                 <a href="magnus.html" class="but">MAGNUS</a>
                 <a href="form.html" class="but">FÓRMULA NATURAL</a>
@@ -19,93 +19,90 @@
                 <a href="#" class="but">ACESSÓRIOS</a>
             </ul>
         </nav>
+        <button id="carrinho-topo" onclick="window.location.href='carrinho.html'">
+            🛒 <span id="quantidade-carrinho"></span>
+        </button>
     </header>
     <div class="banner"></div>
     <center><h2>ORIGENS</h2></center>
     <div class="products">
         <div class="product">
             <img src="/img/origens.webp" alt="Ração Premium">
-            <p>Origens Premium Especial Cães Adultos Portes Mini 
-                e Pequeno Sabor Carne e Cereais</p>
+            <p>Origens Premium Especial Cães Adultos Portes Mini e Pequeno Sabor Carne e Cereais</p>
             <span class="screen-reader-text"> R$ 2̵4̵4̵,̵9̵0̵ </span>
             <div class="screen-reader-text1"> R$220,40</div>
-            <a href="#" class="btn">Comprar</a>
+            <button onclick="adicionarAoCarrinho(11, 'Origens Premium Especial Cães Adultos Portes Mini e Pequeno Sabor Carne e Cereais', 'Ração Premium', 220.40, '/img/origens.webp')">Comprar</button>
         </div>
         <div class="product">
             <img src="/img/origens2.webp" alt="Brinquedo para Cães">
             <p>Origens Premium Especial Cães Adultos Sabor Frango e Cereais</p>
-            <span class="screen-reader-text"> R$ 2̵62,̵9̵0̵ </span>
+            <span class="screen-reader-text"> R$ 2̵6̵2,̵9̵0̵ </span>
             <div class="screen-reader-text1"> R$257,20</div>
-            <a href="#" class="btn">Comprar</a>
+            <button onclick="adicionarAoCarrinho(12, 'Origens Premium Especial Cães Adultos Sabor Frango e Cereais', 'Ração Premium', 257.20, '/img/origens2.webp')">Comprar</button>
         </div>
         <div class="product">
             <img src="/img/origens3.webp" alt="Suplemento Pet">
             <p>Origens Premium Especial Cães Adultos Sabor Carne e Cereais</p>
             <span class="screen-reader-text"> R$ 4̵1̵,̵9̵0̵</span>
             <div class="screen-reader-text1"> R$ 37,20</div>
-            <a href="#" class="btn">Comprar</a>
+            <button onclick="adicionarAoCarrinho(13, 'Origens Premium Especial Cães Adultos Sabor Carne e Cereais', 'Suplemento Pet', 37.20, '/img/origens3.webp')">Comprar</button>
         </div>
-
         <div class="product">
             <img src="/img/origens4.webp" alt="Suplemento Pet">
             <p>Origens Premium Especial Cães Adultos Porte Grande Carne e Cereais</p>
             <span class="screen-reader-text"> R$ 2̵4̵3̵,̵6̵0̵ </span>
             <div class="screen-reader-text1"> R$227,20</div>
-            <a href="#" class="btn">Comprar</a>
+            <button onclick="adicionarAoCarrinho(14, 'Origens Premium Especial Cães Adultos Porte Grande Carne e Cereais', 'Suplemento Pet', 227.20, '/img/origens4.webp')">Comprar</button>
         </div>
         <div class="product">
             <img src="/img/origens5.webp" alt="Suplemento Pet">
             <p>Origens Premium Especial Cães Sênior Portes Médio e Grande Sabor Frango e Cereais</p>
-            <span class="screen-reader-text"> R$ 2̵58,̵9̵0̵ </span>
+            <span class="screen-reader-text"> R$ 2̵5̵8̵,̵9̵0̵ </span>
             <div class="screen-reader-text1"> R$242,20</div>
-            <a href="#" class="btn">Comprar</a>
+            <button onclick="adicionarAoCarrinho(15, 'Origens Premium Especial Cães Sênior Portes Médio e Grande Sabor Frango e Cereais', 'Suplemento Pet', 242.20, '/img/origens5.webp')">Comprar</button>
         </div>
     </div>
-</section>
-<br>
-<section class="best-seller">
-    <div class="products">
-        <div class="product">
-            <img src="/img/origens6.png" alt="Ração Premium">
-            <p>Origens Premium Especial Raças Específicas Cães Adultos Labrador e Golden Retriever</p>
-            <br>
-            <span class="screen-reader-text"> R$ 2̵4̵4̵,̵9̵0̵ </span>
-            <div class="screen-reader-text1"> R$220,40</div>
-            <a href="#" class="btn">Comprar</a>
-        </div>
-        <div class="product">
-            <img src="/img/origens7.png" alt="Brinquedo para Cães">
-            <p>Origens Premium Especial Raças Específicas Cães Adultos Pit Bull e Rottweiler</p>
-            <span class="screen-reader-text"> R$ 2̵62,̵9̵0̵ </span>
-            <div class="screen-reader-text1"> R$257,20</div>
-            <a href="#" class="btn">Comprar</a>
-        </div>
-        <div class="product">
-            <img src="/img/origens8.png" alt="Suplemento Pet">
-            <p>Origens Premium Especial Light Cães Adultos Portes Mini e Pequeno Sabor Frango e Cereais</p>
-            <br>
-            <span class="screen-reader-text"> R$ 4̵1̵,̵9̵0̵</span>
-            <div class="screen-reader-text1"> R$ 37,20</div>
-            <a href="#" class="btn">Comprar</a>
-        </div>
 
-        <div class="product">
-            <img src="/img/origens9.png" alt="Suplemento Pet">
-            <p>Origens Premium Especial Energy Cães Adultos Sabor Frango e Cereais</p>
-            <br>
-            <span class="screen-reader-text"> R$ 2̵4̵3̵,̵6̵0̵ </span>
-            <div class="screen-reader-text1"> R$227,20</div>
-            <a href="#" class="btn">Comprar</a>
+    <section class="best-seller">
+        <div class="products">
+            <div class="product">
+                <img src="/img/origens6.png" alt="Ração Premium">
+                <p>Origens Premium Especial Raças Específicas Cães Adultos Labrador e Golden Retriever</p>
+                <span class="screen-reader-text"> R$ 2̵4̵4̵,̵9̵0̵ </span>
+                <div class="screen-reader-text1"> R$220,40</div>
+                <button onclick="adicionarAoCarrinho(16, 'Origens Premium Especial Raças Específicas Cães Adultos Labrador e Golden Retriever', 'Ração Premium', 220.40, '/img/origens6.png')">Comprar</button>
+            </div>
+            <div class="product">
+                <img src="/img/origens7.png" alt="Brinquedo para Cães">
+                <p>Origens Premium Especial Raças Específicas Cães Adultos Pit Bull e Rottweiler</p>
+                <span class="screen-reader-text"> R$ 2̵6̵2,̵9̵0̵ </span>
+                <div class="screen-reader-text1"> R$257,20</div>
+                <button onclick="adicionarAoCarrinho(17, 'Origens Premium Especial Raças Específicas Cães Adultos Pit Bull e Rottweiler', 'Ração Premium', 257.20, '/img/origens7.png')">Comprar</button>
+            </div>
+            <div class="product">
+                <img src="/img/origens8.png" alt="Suplemento Pet">
+                <p>Origens Premium Especial Light Cães Adultos Portes Mini e Pequeno Sabor Frango e Cereais</p>
+                <span class="screen-reader-text"> R$ 4̵1̵,̵9̵0̵</span>
+                <div class="screen-reader-text1"> R$ 37,20</div>
+                <button onclick="adicionarAoCarrinho(18, 'Origens Premium Especial Light Cães Adultos Portes Mini e Pequeno Sabor Frango e Cereais', 'Suplemento Pet', 37.20, '/img/origens8.png')">Comprar</button>
+            </div>
+            <div class="product">
+                <img src="/img/origens9.png" alt="Suplemento Pet">
+                <p>Origens Premium Especial Energy Cães Adultos Sabor Frango e Cereais</p>
+                <span class="screen-reader-text"> R$ 2̵4̵3̵,̵6̵0̵ </span>
+                <div class="screen-reader-text1"> R$227,20</div>
+                <button onclick="adicionarAoCarrinho(19, 'Origens Premium Especial Energy Cães Adultos Sabor Frango e Cereais', 'Suplemento Pet', 227.20, '/img/origens9.png')">Comprar</button>
+            </div>
+            <div class="product">
+                <img src="/img/origens10.png" alt="Suplemento Pet">
+                <p>Origens Premium Especial Light Cães Adultos Portes Médio e Grande Sabor Frango e Cereais</p>
+                <span class="screen-reader-text"> R$ 2̵5̵8̵,̵9̵0̵ </span>
+                <div class="screen-reader-text1"> R$242,20</div>
+                <button onclick="adicionarAoCarrinho(20, 'Origens Premium Especial Light Cães Adultos Portes Médio e Grande Sabor Frango e Cereais', 'Suplemento Pet', 242.20, '/img/origens10.png')">Comprar</button>
+            </div>
         </div>
-        <div class="product">
-            <img src="/img/origens10.png" alt="Suplemento Pet">
-            <p>Origens Premium Especial Light Cães Adultos Portes Médio e Grande Sabor Frango e Cereais</p>
-            <span class="screen-reader-text"> R$ 2̵58,̵9̵0̵ </span>
-            <div class="screen-reader-text1"> R$242,20</div>
-            <a href="dog.html" class="btn">Comprar</a>
-        </div>
-    </div>
-</section>
+    </section>
     
+<script src="funcoes.js"></script>
 </body>
 </html>

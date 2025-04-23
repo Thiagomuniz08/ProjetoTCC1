@@ -4,61 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/brinquedos.css">
-    <title>Magnus</title>
+    <title>Brinquedos</title>
 </head>
 <body>
     <header>
-        <div class="logo">Origens</div>
+        <div class="logo">Brinquedos</div>
         <nav>
             <ul>
                 <a href="index.html" class=but>INÍCIO</a>
                 <a href="dog.html" class="but">PREMIER</a>
                 <a href="magnus.html" class="but">MAGNUS</a>
                 <a href="form.html" class="but">FÓRMULA NATURAL</a>
-                <a href="#" class="but">BRINQUEDOS</a>
+                <a href="origens.html" class="but">ORIGENS</a>
                 <a href="#" class="but">ACESSÓRIOS</a>
             </ul>
         </nav>
+        <button id="carrinho-topo" onclick="window.location.href='carrinho.html'">
+            🛒 <span id="quantidade-carrinho"></span>
+          </button>
     </header>
     <div class="banner"></div>
     <center><h2>ORIGENS</h2></center>
     <div class="products">
         <div class="product">
             <img src="/img/brinquedos.webp" alt="Ração Premium">
-            <p>Origens Premium Especial Cães Adultos Portes Mini 
-                e Pequeno Sabor Carne e Cereais</p>
-            <span class="screen-reader-text"> R$ 2̵4̵4̵,̵9̵0̵ </span>
-            <div class="screen-reader-text1"> R$220,40</div>
-            <a href="#" class="btn">Comprar</a>
+            <p>Brinquedo Macaco de Pelúcia Marrom Buddy Flicks para Cães</p>
+            <span class="screen-reader-text"> R$ 39,̵9̵0̵ </span>
+            <div class="screen-reader-text1"> R$35,91</div>
+             <button onclick="adicionarAoCarrinho(41, 'Brinquedo Macaco de Pelúcia Marrom Buddy Flicks para Cães', 'Brinquedo para Cães', 35.91, '/img/brinquedos.webp')">Comprar</button>
         </div>
         <div class="product">
             <img src="/img/brinquedo2.png" alt="Brinquedo para Cães">
-            <p>Origens Premium Especial Cães Adultos Sabor Frango e Cereais</p>
-            <span class="screen-reader-text"> R$ 2̵62,̵9̵0̵ </span>
-            <div class="screen-reader-text1"> R$257,20</div>
-            <a href="#" class="btn">Comprar</a>
+            <p>Brinquedo Macaco de Pelúcia Preto Buddy Flicks para Cães</p>
+            <span class="screen-reader-text"> R$ 39,̵9̵0̵ </span>
+            <div class="screen-reader-text1"> R$35,91</div>
+             <button onclick="adicionarAoCarrinho(42, 'Brinquedo Macaco de Pelúcia Preto Buddy Flicks para Cães', 'Brinquedo para Cães', 35.91, '/img/brinquedo2.png')">Comprar</button>
         </div>
         <div class="product">
             <img src="/img/briquedo3.png" alt="Suplemento Pet">
-            <p>Origens Premium Especial Cães Adultos Sabor Carne e Cereais</p>
+            <p>Mordedor Pelúcia Big Duck Jambo</p>
             <span class="screen-reader-text"> R$ 4̵1̵,̵9̵0̵</span>
             <div class="screen-reader-text1"> R$ 37,20</div>
-            <a href="#" class="btn">Comprar</a>
+             <button onclick="adicionarAoCarrinho(43, 'Mordedor Pelúcia Big Duck Jambo', 'Suplemento Pet', 37.20, '/img/briquedo3.png')">Comprar</button>
         </div>
 
         <div class="product">
             <img src="/img/mordedor-sustentavel-woodnpets-amicus-G-1.png" alt="Suplemento Pet">
-            <p>Origens Premium Especial Cães Adultos Porte Grande Carne e Cereais</p>
-            <span class="screen-reader-text"> R$ 2̵4̵3̵,̵6̵0̵ </span>
-            <div class="screen-reader-text1"> R$227,20</div>
-            <a href="#" class="btn">Comprar</a>
+            <p>Brinquedo Mordedor Sustentável Wood Amicus</p>
+            <span class="screen-reader-text"> R$ 44,̵90̵ </span>
+            <div class="screen-reader-text1"> R$38,16</div>
+             <button onclick="adicionarAoCarrinho(44, 'Brinquedo Mordedor Sustentável Wood Amicus', 'Suplemento Pet', 38.16, '/img/mordedor-sustentavel-woodnpets-amicus-G-1.png')">Comprar</button>
         </div>
         <div class="product">
             <img src="/img/brinquedo5.png" alt="Suplemento Pet">
-            <p>Origens Premium Especial Cães Sênior Portes Médio e Grande Sabor Frango e Cereais</p>
-            <span class="screen-reader-text"> R$ 2̵58,̵9̵0̵ </span>
-            <div class="screen-reader-text1"> R$242,20</div>
-            <a href="#" class="btn">Comprar</a>
+            <p>Brinquedo Comedouro Amicus Crazy Ball Azul e Branca</p>
+            <span class="screen-reader-text"> R$ 45,̵9̵0̵ </span>
+            <div class="screen-reader-text1"> R$29,99</div>
+             <button onclick="adicionarAoCarrinho(45, 'Brinquedo Comedouro Amicus Crazy Ball Azul e Branca', 'Suplemento Pet', 29.99, '/img/brinquedo5.png')">Comprar</button>
         </div>
     </div>
 </section>
@@ -67,45 +69,46 @@
     <div class="products">
         <div class="product">
             <img src="/img/brimquedo7.png" alt="Ração Premium">
-            <p>Origens Premium Especial Raças Específicas Cães Adultos Labrador e Golden Retriever</p>
+            <p>Brinquedo Bolinha Cordão Flicks</p>
             <br>
-            <span class="screen-reader-text"> R$ 2̵4̵4̵,̵9̵0̵ </span>
-            <div class="screen-reader-text1"> R$220,40</div>
-            <a href="#" class="btn">Comprar</a>
+            <span class="screen-reader-text"> R$ 2̵4,̵9̵0̵ </span>
+            <div class="screen-reader-text1"> R$14,90</div>
+             <button onclick="adicionarAoCarrinho(46, 'Brinquedo Bolinha Cordão Flicks', 'Ração Premium', 14.90, '/img/brimquedo7.png')">Comprar</button>
         </div>
         <div class="product">
             <img src="/img/brinquedi=o6.webp" alt="Brinquedo para Cães">
-            <p>Origens Premium Especial Raças Específicas Cães Adultos Pit Bull e Rottweiler</p>
-            <span class="screen-reader-text"> R$ 2̵62,̵9̵0̵ </span>
-            <div class="screen-reader-text1"> R$257,20</div>
-            <a href="#" class="btn">Comprar</a>
+            <p>Pelúcia Monkey Fleece Jambo Bege</p>
+            <span class="screen-reader-text"> R$ 119,̵9̵0̵ </span>
+            <div class="screen-reader-text1"> R$59,95</div>
+             <button onclick="adicionarAoCarrinho(47, 'Pelúcia Monkey Fleece Jambo Bege', 'Brinquedo para Cães', 59.95, '/img/brinquedi=o6.webp')">Comprar</button>
         </div>
         <div class="product">
             <img src="/img/brinquedo8.webp" alt="Suplemento Pet">
-            <p>Origens Premium Especial Light Cães Adultos Portes Mini e Pequeno Sabor Frango e Cereais</p>
+            <p>Bolinha Mini Travinha 2 Unidades Animania Verde e Azul</p>
             <br>
             <span class="screen-reader-text"> R$ 4̵1̵,̵9̵0̵</span>
             <div class="screen-reader-text1"> R$ 37,20</div>
-            <a href="#" class="btn">Comprar</a>
+             <button onclick="adicionarAoCarrinho(48, 'Bolinha Mini Travinha 2 Unidades Animania Verde e Azul', 'Suplemento Pet', 37.20, '/img/brinquedo8.webp')">Comprar</button>
         </div>
 
         <div class="product">
             <img src="/img/brinquedo9.webp" alt="Suplemento Pet">
-            <p>Origens Premium Especial Energy Cães Adultos Sabor Frango e Cereais</p>
+            <p>Brinquedo Interativo Labirinto Verde Pet Games</p>
             <br>
-            <span class="screen-reader-text"> R$ 2̵4̵3̵,̵6̵0̵ </span>
-            <div class="screen-reader-text1"> R$227,20</div>
-            <a href="#" class="btn">Comprar</a>
+            <span class="screen-reader-text"> R$ 73,̵90 </span>
+            <div class="screen-reader-text1"> R$62,81</div>
+             <button onclick="adicionarAoCarrinho(49, 'Brinquedo Interativo Labirinto Verde Pet Games', 'Suplemento Pet', 37.20, '/img/brinquedo9.webp')">Comprar</button>
         </div>
         <div class="product">
             <img src="/img/brinquedo10.png" alt="Suplemento Pet">
-            <p>Origens Premium Especial Light Cães Adultos Portes Médio e Grande Sabor Frango e Cereais</p>
-            <span class="screen-reader-text"> R$ 2̵58,̵9̵0̵ </span>
-            <div class="screen-reader-text1"> R$242,20</div>
-            <a href="dog.html" class="btn">Comprar</a>
+            <p>Bolinha de Pontas Grande Azul Jambo</p>
+            <span class="screen-reader-text"> R$ 33,̵90 </span>
+            <div class="screen-reader-text1"> R$27,51</div>
+            <button onclick="adicionarAoCarrinho(50, 'Bolinha de Pontas Grande Azul Jambo', 'Suplemento Pet', 27.51, '/img/brinquedo10.png')">Comprar</button>
         </div>
     </div>
 </section>
+<script src="funcoes.js"></script>
     
 </body>
 </html>
