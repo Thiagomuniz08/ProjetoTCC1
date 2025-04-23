@@ -357,7 +357,7 @@ footer {
 section.hero {
     /*    width: 100%;*/
     height: auto;
-    background: var(--brand-02) url('/ProjetoTCC/img/imagem.gif') no-repeat center right;
+    background: var(--brand-02) url('/img/imagem.gif') no-repeat center right;
 
     display: flex;
     flex-direction: column;

@@ -118,7 +118,7 @@ nav ul li a:hover {
 
 
 .banner {
-    background: url('/ProjetoTCC/img/bannerbr2.webp') no-repeat center center;
+    background: url('/img/bannerbr2.webp') no-repeat center center;
     background-size: cover; 
     display: block;
     height: 410px; 

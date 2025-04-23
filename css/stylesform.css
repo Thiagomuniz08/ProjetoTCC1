@@ -126,7 +126,7 @@ button:hover {
 }
 
 .banner {
-    background: url('/ProjetoTCC/img/ban.png') no-repeat center center;
+    background: url('/img/ban.png') no-repeat center center;
     background-size: cover; 
     display: block;
     height: 410px; 
