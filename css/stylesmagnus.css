@@ -11,6 +11,12 @@ header {
     font-size: 30px;
     font-weight: bold;
 }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4a213;
+    font-family: Arial, sans-serif;
+}
 
 nav ul {
     list-style: none;
@@ -41,7 +47,7 @@ nav ul li a:hover {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgb(255, 255, 255);
     transition: 0.3s;
     text-align: center;
     display: flex;
@@ -109,7 +115,7 @@ button:hover {
 }
 
 .banner {
-    background: url('/img/imagem3.webp') no-repeat center center;
+    background: url('/img/magnus-1.png') no-repeat center center;
     background-size: cover; 
     display: block;
     height: 410px; 

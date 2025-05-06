@@ -3,9 +3,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: 	#121F3E;
+    background-color:  #6A0032;
     padding: 20px 10%;
-    color: #fff;
+    color: white;
 }
 
 .logo {
@@ -15,7 +15,7 @@ header {
 body {
     margin: 0;
     padding: 0;
-    background-color: #121F3E;
+    background-color: #6A0032;
     font-family: Arial, sans-serif;
 }
 
@@ -40,13 +40,12 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     gap: 20px;
-    
 }
 
 .product {
-    height: 615px;
+    height: 450px;
     width: 275px;
-    background: white;
+    background: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgb(255, 255, 255);
@@ -62,14 +61,14 @@ nav ul li a:hover {
 }
 
 .product img {
-    width: 200px;
     border-radius: 8px;
     margin-bottom: 15px;
-    
-}
+    max-width: 300px;
+    }
+
 
 .product p {
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     height: 20px;
 }
@@ -127,11 +126,11 @@ button:hover {
     font-weight: bold;
     border-radius: 5px;
     transition: 0.3s;
-    
 }
 
+
 .banner {
-    background: url('/img/bn2.png') no-repeat center center;
+    background: url('/img/bn1.png') no-repeat center center;
     background-size: cover; 
     display: block;
     height: 410px; 
