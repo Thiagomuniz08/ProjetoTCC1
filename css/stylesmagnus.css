@@ -102,6 +102,30 @@ button {
 button:hover {
     background-color: #fdd835;
 }
+button.fechar {
+    background-color: #121F3E; /* Cor de fundo vermelho */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda */
+    font-size: 18px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    position: absolute; /* Posicionamento absoluto */
+    top: 10px; /* Distância do topo */
+    right: 10px; /* Distância da direita */
+    width: 30px; /* Largura do botão */
+    height: 30px; /* Altura do botão */
+    border-radius: 50%; /* Botão circular */
+    display: flex; /* Centraliza o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    transition: background-color 0.3s ease; 
+}
+
+button.fechar:hover {
+    background-color: #000000;
+    color : #fff; 
+    transform: scale(1.1); 
+}
 
 .but {
     display: inline-block;
@@ -125,3 +149,73 @@ button:hover {
     text-align: center;
     color: rgb(0, 0, 0);
 }
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -520px; 
+    width: 400px; 
+    height: 100%;
+    background: #fff;
+    border-left: 2px solid #ccc;
+    padding: 20px;
+    box-shadow: -3px 0 10px rgba(0,0,0,0.2);
+    transition: right 0.3s ease-in-out;
+    z-index: 9999;
+    overflow-y: auto; 
+  }
+  .sidebar.ativo {
+    right: 0; 
+  }
+  
+  .frete-gratis {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .sugestoes {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .sugestoes li {
+    margin-bottom: 5px;
+  }
+  
+  .carrinho-produto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 12px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-align: center;
+  }
+  
+  .carrinho-produto img {
+    width: 120px; /* menor imagem */
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .conteudo img {
+    width: 30%;
+    display: flex;
+    object-fit: contain;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    margin-bottom: 12px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    text-align: center;
+
+  }

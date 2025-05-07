@@ -158,7 +158,7 @@ button.fechar:hover {
 }
 
 .banner {
-    background: url('/img/bn2.png') no-repeat center center;
+    background: url('/teste/img/bn2.png') no-repeat center center;
     background-size: cover; 
     display: block;
     height: 410px; 
