@@ -1,15 +1,18 @@
 const main = document.querySelector('main');
-var produtos = [];
+let produtos = [];
 
-fetch("dados.json")
+// Carregar os produtos do JSON
+fetch("rabbit.json")
     .then(response => response.json())
     .then(data => {
         produtos = data;
-    }).
-    then(() => {
+    })
+    .then(() => {
         exibirCards();
-    });
+    })
+    .catch(error => console.error("Erro ao carregar JSON:", error));
 
+// Função para exibir os cards dos produtos
 function exibirCards() {
     produtos.forEach((produto) => {
         const card = document.createElement('div');

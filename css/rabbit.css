@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: 	#121F3E;
+    background-color: 	#000000;
     padding: 20px 10%;
     color: #fff;
 }
@@ -14,7 +14,7 @@ header {
 body {
     margin: 0;
     padding: 0;
-    background-color: #121F3E;
+    background-color: #000000;
     font-family: Arial, sans-serif;
 }
 
@@ -62,9 +62,9 @@ button {
 button:hover {
     background-color: #fdd835;
 }
-
+  
 button.fechar {
-    background-color: #121F3E; /* Cor de fundo vermelho */
+    background-color: #000000; /* Cor de fundo vermelho */
     color: white; /* Cor do texto */
     border: none; /* Remove a borda */
     font-size: 18px; /* Tamanho da fonte */
@@ -101,7 +101,7 @@ button.fechar:hover {
 }
 
 .banner {
-    background: url('/img/bn2.png') no-repeat center center;
+    background: url('/img/bghj.png') no-repeat center center;
     background-size: cover; 
     display: block;
     height: 410px; 
@@ -183,22 +183,18 @@ button.fechar:hover {
 
   }
 
-  .cards-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, max-content));
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+  main{
+     margin: 110px;
   }
-  
   .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    justify-items: center;
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* centraliza horizontalmente */
   }
-  
+
   .card {
     height: 500px;
     width: 250px;
@@ -220,4 +216,99 @@ button.fechar:hover {
     border-radius: 10px;
     margin-bottom: 15px;
   }
-  
+
+  .add-to-cart-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffeb3b; 
+    color: #333; 
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-to-cart-button:hover {
+    background-color: #ffeb3b;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 5%;
+    }
+
+    .logo {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .banner {
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .sidebar {
+        width: 100%;
+        right: -100%; /* Esconde toda a largura da tela */
+    }
+
+    .sidebar.ativo {
+        right: 0;
+    }
+
+    .carrinho-produto {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .conteudo img {
+        width: 100%;
+    }
+
+    .cards-container {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    main {
+        margin: 20px;
+    }
+
+    .btn, .but, .add-to-cart-button, button {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    button.fechar {
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
+        top: 5px;
+        right: 5px;
+    }
+}

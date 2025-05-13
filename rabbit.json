@@ -4,79 +4,90 @@
         "nome": "Origens Premium Especial Light Cães Adultos Portes Mini e Pequeno Sabor Frango e Cereais",
         "descricao": "Suplemento Pet",
         "preco": 37.20,
-        "imagem": "/img/origens8.png",
-        "alt": "Suplemento Pet"
+        "imagem": "/img/tartaruga.jpg",
+        "alt": "Suplemento Pet",
+        "button": "Adicionar ao Carrinho"
     },
     {
         "id": 19,
         "nome": "Origens Premium Especial Energy Cães Adultos Sabor Frango e Cereais",
         "descricao": "Suplemento Pet",
         "preco": 227.20,
-        "imagem": "/img/origens9.png",
-        "alt": "Suplemento Pet"
+        "imagem": "/img/tar2.jpg",
+        "alt": "Suplemento Pet",
+        "button": "Adicionar ao Carrinho"
     },
     {
         "id": 20,
         "nome": "Origens Premium Especial Light Cães Adultos Portes Médio e Grande Sabor Frango e Cereais",
         "descricao": "Suplemento Pet",
         "preco": 242.20,
-        "imagem": "/img/origens10.png",
-        "alt": "Suplemento Pet"
+        "imagem": "/img/tar3.jpg",
+        "alt": "Suplemento Pet",
+        "button": "Adicionar ao Carrinho"
+        
     },
     {
         "id": 17,
         "nome": "Origens Premium Especial Raças Específicas Cães Adultos Pit Bull e Rottweiler",
         "descricao": "Ração Premium",
         "preco": 257.20,
-        "imagem": "/img/origens7.png",
-        "alt": "Brinquedo para Cães"
+        "imagem": "/img/tar4.jpg",
+        "alt": "Brinquedo para Cães",
+        "button": "Adicionar ao Carrinho"
     },
     {
         "id": 13,
         "nome": "Origens Premium Especial Cães Adultos Sabor Carne e Cereais",
         "descricao": "Suplemento Pet",
         "preco": 37.20,
-        "imagem": "/img/origens3.webp",
-        "alt": "Suplemento Pet"
+        "imagem": "/img/tar5.jpg",
+        "alt": "Suplemento Pet",
+        "button": "Adicionar ao Carrinho"
     },
     {
         "id": 13,
         "nome": "Origens Premium Especial Cães Adultos Sabor Carne e Cereais",
         "descricao": "Suplemento Pet",
         "preco": 37.20,
-        "imagem": "/img/origens3.webp",
-        "alt": "Suplemento Pet"
+        "imagem": "/img/tar6.jpg",
+        "alt": "Suplemento Pet",
+        "button": "Adicionar ao Carrinho"
     },
     {
         "id": 13,
         "nome": "Origens Premium Especial Cães Adultos Sabor Carne e Cereais",
         "descricao": "Suplemento Pet",
         "preco": 37.20,
-        "imagem": "/img/origens3.webp",
-        "alt": "Suplemento Pet"
+        "imagem": "/img/tar7.jpg",
+        "alt": "Suplemento Pet",
+        "button": "Adicionar ao Carrinho"
     },
     {
         "id": 13,
         "nome": "Origens Premium Especial Cães Adultos Sabor Carne e Cereais",
         "descricao": "Suplemento Pet",
         "preco": 37.20,
-        "imagem": "/img/origens3.webp",
-        "alt": "Suplemento Pet"
+        "imagem": "/img/tar8.jpg",
+        "alt": "Suplemento Pet",
+        "button": "Adicionar ao Carrinho"
     },
     {
         "id": 13,
         "nome": "Origens Premium Especial Cães Adultos Sabor Carne e Cereais",
         "descricao": "Suplemento Pet",
         "preco": 37.20,
-        "imagem": "/img/origens3.webp",
-        "alt": "Suplemento Pet"
+        "imagem": "/img/tar9.jpg",
+        "alt": "Suplemento Pet",
+        "button": "Adicionar ao Carrinho"
     },
     {
         "id": 13,
         "nome": "Origens Premium Especial Cães Adultos Sabor Carne e Cereais",
         "descricao": "Suplemento Pet",
         "preco": 37.20,
-        "imagem": "/img/origens3.webp",
-        "alt": "Suplemento Pet"
+        "imagem": "/img/tar10.jpg",
+        "alt": "Suplemento Pet",
+        "button": "Adicionar ao Carrinho"
     }
 ]

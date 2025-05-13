@@ -219,3 +219,53 @@ button.fechar:hover {
     text-align: center;
 
   }
+  
+  /* Estilo básico do menu */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a.but {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Submenu oculto inicialmente */
+.submenu {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  min-width: 150px;
+  z-index: 100;
+}
+
+.submenu li a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.submenu li a:hover {
+  background-color: #eee;
+}
+
+/* Mostrar submenu ao passar o mouse */
+.menu-item:hover .submenu {
+  display: block;
+}
