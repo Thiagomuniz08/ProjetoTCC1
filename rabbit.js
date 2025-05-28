@@ -22,28 +22,23 @@ function mostrarPainelLateral(nomeProduto, imagemProduto) {
     const textoProduto = document.getElementById('produto-adicionado');
     const imagemElemento = document.createElement('img');
 
-    // Atualiza o texto do produto
     textoProduto.textContent = nomeProduto;
 
-    // Remove qualquer imagem anterior
     const imagemExistente = painel.querySelector('.imagem-produto-adicionado');
     if (imagemExistente) {
         imagemExistente.remove();
     }
 
-    // Adiciona a nova imagem
     imagemElemento.src = imagemProduto;
     imagemElemento.alt = nomeProduto;
     imagemElemento.classList.add('imagem-produto-adicionado');
     textoProduto.insertAdjacentElement('beforebegin', imagemElemento);
 
-    // Mostra o painel
     painel.classList.add('ativo');
 
-    // Remove o painel após 10 segundos
     setTimeout(() => {
         painel.classList.remove('desativo');
-    },);
+    }, 10000);
 }
 
 // Função para fechar o carrinho
@@ -57,21 +52,27 @@ fetch("rabbit.json")
     .then(response => response.json())
     .then(data => {
         produtos = data;
-        exibirCards(); // chamar dentro do .then(data => {...})
+        exibirCards();
     })
     .catch(error => console.error("Erro ao carregar JSON:", error));
 
 // Função para exibir os cards dos produtos
 function exibirCards() {
     produtos.forEach(produto => {
+        const precoAntigo = produto.precoAntigo.toFixed(2).replace('.', ',');
+        const preco = produto.preco.toFixed(2).replace('.', ',');
+
         const card = document.createElement('div');
         card.classList.add('card');
         card.innerHTML = `
             <img src="${produto.imagem}" alt="${produto.alt}">
             <h2>${produto.alt}</h2>
             <p>${produto.nome}</p>
-            <p>R$ ${produto.preco.toFixed(2)}</p>
-            <button class="add-to-cart-button">Adicionar ao Carrinho</button>
+            <p>
+              <span style="text-decoration: line-through; color: gray; ">R$ ${precoAntigo}</span><br>
+              <span style="color: orange; font-weight: bold;">R$ ${preco}</span>
+            </p>
+            <button class="add-to-cart-button">${produto.button}</button>
         `;
 
         const button = card.querySelector('.add-to-cart-button');
