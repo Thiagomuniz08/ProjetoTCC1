@@ -202,12 +202,17 @@ button.fechar:hover {
     padding: 20px;
     background: white;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgb(252, 252, 252);
+    box-shadow: 0 4px 12px rgb(255, 255, 255);
     text-align: center;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
   }
+  
+.card:hover {
+    transform: translateY(-5px);
+}
+
   
   .card img {
     width: 100%;
