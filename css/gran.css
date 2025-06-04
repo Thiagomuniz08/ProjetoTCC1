@@ -1,11 +1,15 @@
 /* Cabeçalho */
 header {
+    position: fixed;
+    z-index: 1000;
     display: flex;
+    height: 60px;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
-    background-color:  #6A0032;
+    background-color: #6a0032;
     padding: 20px 10%;
-    color: white;
+    color: #fff;
 }
 
 .logo {
@@ -19,21 +23,66 @@ body {
     font-family: Arial, sans-serif;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+.menu-toggle {
+    font-size: 30px;
+    padding: 10px;
+    background-color: #f4a213;
+    color: white;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: none;
+    border-radius: 5px;
+    z-index: 1001;
 }
 
-nav ul li a {
+.slide-menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    z-index: 999;
+    background-color: #343434;
+    transition: left 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slide-menu.active {
+    left: 0;
+}
+
+.menu-toggle.active {
+    left: 260px;
+}
+
+.slide-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.slide-menu ul li {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.slide-menu ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    transition: 0.3s;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background 0.3s ease;
 }
 
-nav ul li a:hover {
-    color: #ffeb3b;
+.slide-menu ul li a:hover {
+    background-color: #28a745;
+    border-radius: 5px;
 }
 
 .products {
@@ -144,17 +193,21 @@ button.fechar:hover {
 .but {
     display: inline-block;
     padding: 12px 24px;
-    background-color: beige;
-    color: #333;
+    width: 60%;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
     transition: 0.3s;
 }
 
+.but:hover {
+    background-color: #fdd835;
+    color: #333;
+}
 
 .banner {
-    background: url('/img/bn1.png') no-repeat center center;
+    background: url('/img/bn3.jpg') no-repeat center center;
     background-size: cover; 
     display: block;
     height: 410px; 
