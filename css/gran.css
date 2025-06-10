@@ -26,64 +26,50 @@ body {
 .menu-toggle {
     font-size: 30px;
     padding: 10px;
-    background-color: #f4a213;
-    color: white;
+    background-color: #fff;
+    color: #6A0032;
     cursor: pointer;
     position: fixed;
     top: 10px;
     left: 10px;
     border: none;
     border-radius: 5px;
-    z-index: 1001;
+    z-index: 1000;
 }
-
 .slide-menu {
     position: fixed;
     top: 0;
     left: -250px;
     width: 250px;
     height: 100%;
-    z-index: 999;
     background-color: #343434;
     transition: left 0.3s ease;
     z-index: 1000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
-
-.slide-menu.active {
+.slide-menu.active{
     left: 0;
 }
-
-.menu-toggle.active {
-    left: 260px;
+.menu-toggle.active{
+    left: 250px;
 }
+
 
 .slide-menu ul {
     list-style: none;
     padding: 0;
-    margin: 0;
 }
-
 .slide-menu ul li {
-    text-align: center;
-    margin: 15px 0;
+    padding: 15px;
 }
-
 .slide-menu ul li a {
-    color: white;
+    color:white;
     text-decoration: none;
-    font-size: 18px;
-    padding: 10px 20px;
-    display: inline-block;
-    transition: background 0.3s ease;
+    display: black;
+}
+.slide-menu ul li a:hover {
+    background-color:#28a745;
 }
 
-.slide-menu ul li a:hover {
-    background-color: #28a745;
-    border-radius: 5px;
-}
 
 .products {
     display: flex;
@@ -193,7 +179,7 @@ button.fechar:hover {
 .but {
     display: inline-block;
     padding: 12px 24px;
-    width: 60%;
+    width: 80%;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
